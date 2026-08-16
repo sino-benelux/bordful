@@ -13,7 +13,7 @@ import { SimilarJobs } from '@/components/ui/similar-jobs';
 import config from '@/config';
 import { PARENTHESIS_CONTENT_REGEX } from '@/lib/constants/defaults';
 import { formatSalary } from '@/lib/db/airtable';
-import { getJobs } from '@/lib/db/airtable.server';
+import { getJobs } from '@/lib/db/turso.server';
 import { resolveColor } from '@/lib/utils/colors';
 import { formatDate } from '@/lib/utils/formatDate';
 import { generateMetadata as createMetadata } from '@/lib/utils/metadata';

@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { getJobs } from '@/lib/db/airtable.server';
+import { getJobs } from '@/lib/db/turso.server';
 import { generateJobSlug } from '@/lib/utils/slugify';
 
 /**

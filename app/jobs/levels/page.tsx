@@ -6,7 +6,7 @@ import { MetadataBreadcrumb } from '@/components/ui/metadata-breadcrumb';
 import config from '@/config';
 import { CAREER_LEVEL_DISPLAY_NAMES } from '@/lib/constants/career-levels';
 import type { CareerLevel } from '@/lib/db/airtable';
-import { getJobs } from '@/lib/db/airtable.server';
+import { getJobs } from '@/lib/db/turso.server';
 import { generateMetadata } from '@/lib/utils/metadata';
 
 // Generate metadata for SEO

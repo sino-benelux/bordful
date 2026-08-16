@@ -9,7 +9,7 @@ import {
   JOB_TYPE_DISPLAY_NAMES,
   type JobType,
 } from '@/lib/constants/job-types';
-import { getJobs } from '@/lib/db/airtable.server';
+import { getJobs } from '@/lib/db/turso.server';
 import { generateMetadata } from '@/lib/utils/metadata';
 
 // Generate metadata for SEO

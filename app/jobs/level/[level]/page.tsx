@@ -6,7 +6,7 @@ import { JobSearchInput } from '@/components/ui/job-search-input';
 import config from '@/config';
 import { CAREER_LEVEL_DISPLAY_NAMES } from '@/lib/constants/career-levels';
 import type { CareerLevel } from '@/lib/db/airtable';
-import { getJobs } from '@/lib/db/airtable.server';
+import { getJobs } from '@/lib/db/turso.server';
 import { generateMetadata as createMetadata } from '@/lib/utils/metadata';
 
 // Revalidate page every 5 minutes

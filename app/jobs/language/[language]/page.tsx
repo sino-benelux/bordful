@@ -9,7 +9,7 @@ import {
   LANGUAGE_CODES,
   type LanguageCode,
 } from '@/lib/constants/languages';
-import { getJobs } from '@/lib/db/airtable.server';
+import { getJobs } from '@/lib/db/turso.server';
 import { generateMetadata as createMetadata } from '@/lib/utils/metadata';
 
 // Revalidate page every 5 minutes
